@@ -105,7 +105,7 @@
                           <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">ติดต่อแล้ว</span>
                         </td>
                         <td class="px-6 py-4 text-center">
-                            <a href="detailborrow" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">ตรวจสอบ</a>
+                            <a href="loancollection_detail" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">ตรวจสอบ</a>
                         </td>
                   </tr>
                 </tbody>
