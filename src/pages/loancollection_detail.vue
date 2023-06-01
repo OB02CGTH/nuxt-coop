@@ -48,7 +48,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="i in 2" class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr v-for="i in 3" class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th scope="row" class="w-1 px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     {{ i }}
                   </th>
@@ -125,7 +125,8 @@
         </div>
       </div>
     </div>
-</section></template>
+  </section>
+</template>
 
 <script setup lang="ts">
 function randomnumber() {
