@@ -105,11 +105,14 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
-                        <h3 ยืนยันการบันทึก class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">ยืนยันบันทึกการถอน</h3>
-                        <button data-modal-hide="popup-modal" type="button"
-                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            ยกลง
-                        </button>                        
+                        <h3 ยืนยันการบันทึก class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">
+                            ยืนยันบันทึกการถอน</h3>
+                        <NuxtLink to='/deposit_list'>
+                            <button data-modal-hide="popup-modal" type="button"
+                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                ตกลง
+                            </button>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
