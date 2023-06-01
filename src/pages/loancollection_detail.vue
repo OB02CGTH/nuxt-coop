@@ -17,9 +17,6 @@
               รหัสสมาชิก: xxxxxx
             </div>
             <div>
-              รวมเป็นเงินค้างชำระ: xxxxxx
-            </div>
-            <div>
               ไม่สามารถส่งเงินชำระหนี้ได้: x ครั้ง
             </div>
             <div>
@@ -27,6 +24,15 @@
             </div>
             <div>
               ถึงงวดที่: x
+            </div>
+            <div>
+              รวมเป็นเงินค้างชำระทั้งสิ้น: xxxxxx
+            </div>
+            <div>
+              ชำระแล้ว: xxxxxx
+            </div>
+            <div>
+              เงินค้างชำระคงเหลือ: xxxxxx
             </div>
           </div>
           <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">รายการงวดที่ยังไม่ชำระ:</h2>
@@ -68,31 +74,29 @@
           <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white"> ขั้นตอนการดำเนินการ:</h2>
           <ul class="space-y-4 text-gray-500 list-disc list-inside dark:text-gray-400">
             <li>
-              List item one
+              แปลงทรัพสินทร์ในสหกรณ์เป็นค่าหนี้
               <ol class="pl-5 mt-2 space-y-1 list-decimal list-inside">
-                <li>You might feel like you are being really "organized" o</li>
-                <li>Nested navigation in UIs is a bad idea too, keep things as flat as possible.</li>
-                <li>Nesting tons of folders in your source code is also not helpful.</li>
+                <li>เงินค่าหุ้น</li>
+                <li>เงินปันผล</li>
+                <li>เงินเฉลี่ยนคืน</li>
+                <li>เงินฝาก</li>
+                <li>เงินอื่น ๆ</li>
               </ol>
             </li>
             <li>
-              List item two
-              <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
-                <li>I'm not sure if we'll bother styling more than two levels deep.</li>
-                <li>Two is already too much, three is guaranteed to be a bad idea.</li>
-                <li>If you nest four levels deep you belong in prison.</li>
-              </ul>
+              ทรัพสินที่นำมาค้ำประกันแปลงเป็นค่าหนี้
             </li>
             <li>
-              List item three
+              ผู้ค้ำและผู้กู้
               <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
-                <li>Again please don't nest lists if you want</li>
-                <li>Nobody wants to look at this.</li>
-                <li>I'm upset that we even have to bother styling this.</li>
+                <li>ขับผู้กู้ออกจาการเป็นสมาชิกสหกรณ์</li>
+                <li>โอนเงินค่าหนี้ให้กับผู้คำ</li>
               </ul>
             </li>
           </ul>
-          <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements:</h2>
+          <button type="button" class=" mt-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">ดำเนินการ</button>
+          
+          <!-- <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements:</h2>
           <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
             <li class="flex items-center">
               <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
@@ -121,7 +125,7 @@
               </svg>
               At least one special character, e.g., ! @ # ?
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
