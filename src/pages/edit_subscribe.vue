@@ -5,14 +5,13 @@
                 <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white">สมัครสมาชิกสหกรณ์</h2>
                 <h2 class="mt-4 mb-2 text-xl font-bold text-gray-900 dark:text-white">ข้อมูลส่วนตัว</h2>
                 <form action="#">
-                    <div class="grid gap-4 sm:grid-cols-6 sm:gap-6">
+                    <div class="grid gap-4 sm:grid-cols-4 sm:gap-6">
                         <div class="sm:col-span-1">
                             <label for="countries"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">คำนำหน้าชื่อ</label>
                             <select id="countries"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                <option selected>คำนำหน้า</option>
-                                <option value="US">นาย</option>
+                                <option selected value="US">นาย</option>
                                 <option value="CA">นาง</option>
                                 <option value="FR">นางสาว</option>
                                 <option value="DE">ดร.</option>
@@ -23,110 +22,103 @@
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ชื่อ</label>
                             <input type="text" name="name" id="name"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="กิตติพิชญ์" required>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="name"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">สกุล</label>
                             <input type="text" name="name" id="name"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="เสนานุช" required>
                         </div>
                         <div class="sm:col-span-1">
                             <label for="name"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">วัน-เดือน-ปีเกิด</label>
-                            <div class="relative">
-                                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                    <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400"
-                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <input datepicker type="text"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="Select date">
-                            </div>
+
+
+                            <input datepicker type="text"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="09/07/2542">
+
                         </div>
 
                     </div>
-                    <div class="grid gap-4 sm:grid-cols-4 sm:gap-6 py-5">
+                    <div class="grid gap-4 sm:grid-cols-4 sm:gap-6">
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">บ้านเลขที่</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="1997" required>
                         </div>
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">หมู่ที่</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="12" required>
                         </div>
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ถนน</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="ขอนแก่น-เลย" required>
                         </div>
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ตำบล</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="ในเมือง" required>
                         </div>
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">อำเภอ</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="เมือง" required>
                         </div>
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">จังหวัด</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="ขอนแก่น" required>
                         </div>
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">รหัสไปรษณีย์</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="40000" required>
                         </div>
                         <div class="w-full">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">เบอร์โทรศัพท์</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="0899876565" required>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">เลชบัตรประจำตัวประชาชน</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="1423232456765" required>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">เลขที่บัญชีธนาคารกรุงไทย</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="0-0111-2222-1" required>
                         </div>
 
                     </div>
 
                     <h2 class="mt-4 mb-2 text-xl font-bold text-gray-900 dark:text-white">ข้อมูลสังกัด</h2>
-                    <div class="grid gap-4 sm:grid-cols-8 sm:gap-6">
+                    <div class="grid gap-4 sm:grid-cols-4 sm:gap-6">
                         <div class="sm:col-span-2">
                             <label for="countries"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ประเภท</label>
@@ -143,21 +135,21 @@
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ตำแหน่ง</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="หมอลำ" required>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">แผนก</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="วงกลาง" required>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="brand"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">เงินเดือนประจำตำแหน่ง</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="" required>
+                                placeholder="" value="10000" required>
                         </div>
                     </div>
                     <h2 class="mt-4 mb-2 text-xl font-bold text-gray-900 dark:text-white">สหกรณ์</h2>
@@ -168,7 +160,7 @@
                                 (มูลละค่าหุ้น 10.00 บาท)</label>
                             <input type="text" name="brand" id="brand"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                placeholder="อัตราเดือนละ" required>
+                                placeholder="อัตราเดือนละ" value="100" required>
                         </div>
                         <div class="sm:col-span-6">
                             <label for="brand"
@@ -179,17 +171,39 @@
                                 placeholder="" required>
                         </div>
                     </div>
-                    <div class="flex items-center mt-4">
-                        <input id="default-checkbox" type="checkbox" value=""
+                    <h2 class="mt-4 mb-2 text-xl font-bold text-gray-900 dark:text-white">เงื่อนไข</h2>
+                    <div class="flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
+                        <input checked id="bordered-checkbox-2" type="checkbox" value="" name="bordered-checkbox"
                             class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                        <label for="default-checkbox"
-                            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ท่านยอมรับการดำเนินการของสหกรณ์</label><u
-                            class="ml-2 text-sm font-medium text-blue-900 dark:text-gray-300"> อ่านเอกสารเพิ่มเติม </u>
+                        <label for="bordered-checkbox-2"
+                            class="w-full py-4 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked
+                            state</label>
                     </div>
-                    <a href="/request_subscribe" type="button"
-                        class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-4 text-sm font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
-                        สมัครสมาชิก
-                    </a>
+                    <div class="flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
+                        <input checked id="bordered-checkbox-2" type="checkbox" value="" name="bordered-checkbox"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="bordered-checkbox-2"
+                            class="w-full py-4 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked
+                            state</label>
+                    </div>
+                    <div class="flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
+                        <input checked id="bordered-checkbox-2" type="checkbox" value="" name="bordered-checkbox"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="bordered-checkbox-2"
+                            class="w-full py-4 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked
+                            state</label>
+                    </div>
+                    <div
+                        class="flex flex-col flex-shrink-0 space-y-3 md:flex-row md:items-center lg:justify-end md:space-y-0 md:space-x-3 mt-6">
+                        <a type="button" href="/request_subscribe"
+                            class="flex items-center justify-center px-4 py-2 text-sm font-medium text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800">
+                            ไม่ผ่าน
+                        </a>
+                        <a type="button" href="/request_subscribe"
+                            class="flex items-center justify-center px-4 py-2 text-sm font-medium text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">
+                            ผ่าน
+                        </a>
+                    </div>
                 </form>
             </div>
         </div>
