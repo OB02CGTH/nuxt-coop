@@ -1,11 +1,41 @@
 <template>
     <section class="bg-gray-50 dark:bg-gray-900 h-screen items-center p-10">
+
         <div class="max-w-screen-xl px-4 mx-auto lg:px-12 w-full ">
+
+            <ol
+                class="flex items-center w-full text-sm font-medium text-center text-gray-500 dark:text-gray-400 sm:text-base">
+                <li
+                    class="flex md:w-full items-center text-blue-600 dark:text-blue-500 sm:after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">
+                    <span
+                        class="flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-gray-200 dark:after:text-gray-500">
+                        <svg aria-hidden="true" class="w-4 h-4 mr-2 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        Personal <span class="hidden sm:inline-flex sm:ml-2">Info</span>
+                    </span>
+                </li>
+                <li
+                    class="flex md:w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">
+                    <span
+                        class="flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-gray-200 dark:after:text-gray-500">
+                        <span class="mr-2">2</span>
+                        Account <span class="hidden sm:inline-flex sm:ml-2">Info</span>
+                    </span>
+                </li>
+                <li class="flex items-center">
+                    <span class="mr-2">3</span>
+                    Confirmation
+                </li>
+            </ol>
+
             <!-- Start coding here -->
-            <div class="relative bg-white shadow-md dark:bg-gray-800 sm:rounded-lg ">
+            <div class="relative bg-white shadow-md dark:bg-gray-800 sm:rounded-lg mt-10">
                 <div class="flex flex-col items-center justify-between p-4 space-y-3 md:flex-row md:space-y-0 md:space-x-4">
                     <div class="w-full">
-
                         <form>
                             <div
                                 class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
@@ -113,7 +143,7 @@
                                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                         clip-rule="evenodd"></path>
                                                 </svg>
-                                                วงเงินกู้ได้สูงสุด 1 ล้านบาท 
+                                                วงเงินกู้ได้สูงสุด 1 ล้านบาท
                                             </li>
                                             <li class="flex items-center">
                                                 <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0"
@@ -182,19 +212,19 @@
                                             <li class="flex items-center">
                                                 <svg class="w-4 h-4 mr-1.5 text-red-500 dark:text-red-400 flex-shrink-0"
                                                     fill="currentColor" viewBox="0 0 20 20"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd"
-                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                    clip-rule="evenodd"></path>
-                                            </svg>
-                                            At least one lowercase character
-                                        </li>
-                                    </ul>
-                                    <a data-modal-toggle="errorModal" type="button" href="/borrow3"
-                                        class="py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:focus:ring-primary-900">
-                                        Continue
-                                    </a>
-                                </div>
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                        clip-rule="evenodd"></path>
+                                                </svg>
+                                                At least one lowercase character
+                                            </li>
+                                        </ul>
+                                        <a data-modal-toggle="errorModal" type="button" href="/borrow3"
+                                            class="py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:focus:ring-primary-900">
+                                            Continue
+                                        </a>
+                                    </div>
                             </div>
                         </div>
                     </form>
